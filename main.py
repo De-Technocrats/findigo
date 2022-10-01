@@ -1,9 +1,7 @@
 #!/usr/bin/env python3 
 
 """
-
 GITHUB : De-Technocrats
-
 """
 
 # version
@@ -38,10 +36,6 @@ _/ ____\__| ____    __| _/|__| ____   ____
 
 NOTE : Findigo is small tool to information gathering phonenumbers. We create this tool for educational purposes.
            """)
-      
-    # function to give error
-    def errorMessage(self):
-      print("[-] Findigo can't understand your command")
         
     # this is main function
     def Main(self):
@@ -106,7 +100,7 @@ NOTE : Findigo is small tool to information gathering phonenumbers. We create th
                 
                 # just give pass
                 pass
-    
+            
               # i think you will understand what this mean when the tool already latest version
             else:               
                 print('[+] Already up to date')
@@ -118,8 +112,5 @@ if __name__ == '__main__':
     RUN.Main()
 
   # handling error
-  except ValueError:  
-    RUN.errorMessage()  
-
   except KeyboardInterrupt:
     print('^C')
