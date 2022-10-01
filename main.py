@@ -10,7 +10,7 @@ GITHUB : De-Technocrats
 VERSION = '1.0'
 
 # import the modules
-import phonenumbers, argparse
+import phonenumbers, argparse, time, requests
 from phonenumbers import carrier, geocoder, timezone
 from json import loads
 from packaging import version
