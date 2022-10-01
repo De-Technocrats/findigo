@@ -90,7 +90,6 @@ NOTE : Findigo is small tool to information gathering phonenumbers. We create th
               # ask user to update
               ask_update = input('[!] Do you want to update?[y/n]: ')
               
-    
               # if user answer 'y' that mean yes
               if ask_update.lower() == 'y':
     
@@ -104,13 +103,13 @@ NOTE : Findigo is small tool to information gathering phonenumbers. We create th
     
               # answer 'n' that mean no or else
               else:
+                
                 # just give pass
                 pass
     
               # i think you will understand what this mean when the tool already latest version
-            else:
-              
-              print('[+] Already up to date')
+            else:               
+                print('[+] Already up to date')
  
 # run 
 if __name__ == '__main__':
