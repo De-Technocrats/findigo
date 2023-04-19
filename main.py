@@ -35,6 +35,10 @@ _/ ____\__| ____    __| _/|__| ____   ____
                \/      \/   /_____/  
 
 NOTE : Findigo is small tool to information gathering phonenumbers. We create this tool for educational purposes.
+    More TOOls: https://github.com/De-Technocrats
+    Telegram channel: https://t.me/DeTechnocrats
+    Youtube channel: https://www.youtube.com/@DeTechnocrats
+
            """)
         
     # this is main function
